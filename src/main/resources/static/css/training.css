@@ -1,0 +1,17 @@
+div.background-yellow {
+    background-color: rgba(255,255,0,0.2);
+    height: 100vh;
+}
+
+h2#orange {
+    color: #ff4500;
+}
+
+h5#font-comic {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+div.form-group.required label:after {
+    content: "*";
+    color: red;
+}

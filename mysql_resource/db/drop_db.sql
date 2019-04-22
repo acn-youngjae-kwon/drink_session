@@ -1,0 +1,1 @@
+drop DATABASE drink_session;
