@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <link href="/static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link href="/static/css/input_form.css" th:href="@{/css/input_form.css}" rel="stylesheet"/>
+    <title>Account Register Page</title>
+</head>
+<body>
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Account Register Form -->
+        <form id="login_form" method="post" th:action="@{'/account/init'}">
+            <h2>Account Register Page</h2>
+            <input type="text" id="account_id" name="account_id" placeholder="User ID">
+            <input type="password" id="account_password" name="account_password" placeholder="Password">
+            <input type="password" id="account_password_confirm" name="account_password_confirm" placeholder="Password Confirm">
+            <input type="submit" id="register_button" value="Register Account">
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>

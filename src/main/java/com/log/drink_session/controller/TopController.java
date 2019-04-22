@@ -4,13 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * HelloWorldコントローラ。
+ * Top Controller
  */
 @Controller
-public class HelloWorldController {
+@RequestMapping("/")
+public class TopController {
 
-    @RequestMapping("/")
-    public String hello() {
-        return "helloWorldForm";
+    @RequestMapping(value="")
+    public String top() {
+        return "topForm";
     }
 }
