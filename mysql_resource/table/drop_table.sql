@@ -2,5 +2,6 @@
 USE drink_session
 
 -- DROP
-DROP TABLE users;
+DROP TABLE accounts;
 DROP TABLE items;
+DROP TABLE memo;
